@@ -1,0 +1,120 @@
+div.my-profile{
+  
+}
+h1.profile{
+    font-family: 'Fredoka', sans-serif;
+color: black;
+font-size: calc(12px + 2vw);
+}
+p{
+    font-family: 'Fredoka', sans-serif;
+    color: rgb(102, 99, 99); 
+}
+div.horizontal{
+    height:3px;
+    width:16vw;
+    background-color: rgb(0, 0, 0);
+    margin-left: 42vw;
+    margin-top: 20px;
+    border-radius: 2px;
+}
+div.scroll{
+    height:10px;
+    width:5vw; 
+    background-color: orange;
+    margin-left: 47.5vw;
+    margin-top: -6px;
+    border-radius: 5px;
+}
+div.frame{
+    width: 80%;
+    height: 700px;
+    margin: 10%;
+    display: flex;
+    flex-wrap: wrap;
+    border :none;
+    border: 1px solid #BFBFBF;
+  background-color: white;
+  box-shadow: 10px 10px 10px 10px #aaaaaa;
+
+}
+div.image{
+    width: 50%;
+    height:100%;
+}
+div.skills{
+    width: 50%;
+
+}
+img.left{
+    width: 100%;
+    height: 100%;
+}
+h2.detail{
+    font-family: 'Fredoka', sans-serif;
+color:rgb(3, 3, 2);
+font-size: calc(10px + 0.5vw); 
+text-align: left;
+margin-left: 50px;
+margin-right: 50px;
+margin-top: 100px;
+}
+h1.skills{
+    font-family: 'Fredoka', sans-serif;
+    color: rgb(56, 1, 1);
+    font-size: calc(12px + 2vw);  
+}
+img.lang{
+    width:6vw;
+    height:4vw;
+    margin:3vw;
+}
+div.btn{
+    margin-top: 5vw;
+}
+button.resume{
+    background-color: orange;
+    border:none;
+    border-radius: 10px;
+    color: white;
+    width :10em;
+    height:3em;
+    font-family: 'Fredoka', sans-serif;
+    font-size: calc(10px + 0.5vw);
+    box-shadow: 10px 10px 10px 10px rgb(207, 204, 199);
+    margin-bottom: 20px;
+}
+button:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+}
+@media(max-width:800px){
+
+div.frame {
+    height: 400px;
+    width:100%;
+    margin:0%;
+    margin-top: 40px;
+    box-shadow: none;
+    border: none;
+}
+    img.left{
+    width: 100%;
+    height: 400px;
+    
+}
+h2.detail{
+    margin-top: 30px;
+    margin-left:10px;
+    margin-right: 3px;
+    font-size: 12px;
+}
+img.lang{
+    width: 2em;
+    height:2em;
+}
+button.resume{
+    width:8em;
+}
+
+}

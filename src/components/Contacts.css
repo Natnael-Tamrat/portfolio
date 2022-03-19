@@ -1,0 +1,118 @@
+
+
+h2#get{
+    font-family: 'Fredoka', sans-serif;
+    color: rgb(0, 0, 0);
+    margin-top:100px;
+    margin-bottom: 100px;
+    text-align: center;
+    font-size: 40px;
+}
+h1.msg{
+    text-align: center;
+    font-family: 'Fredoka', sans-serif;
+    color: rgb(0, 0, 0);
+}
+div.contacts{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(255, 255, 255);
+}
+div.social{
+    width: 50%;
+    display: block;
+}
+div.phone,div.email,div.address{
+    display: flex;
+    width:20em;
+    margin-left: 50px;
+    margin-bottom:20px;
+    padding: 10px;
+    background-color: rgb(255, 253, 253);
+    border-radius: 10px;
+}
+img.imag{
+    margin-top: 20px;
+    width:3em;
+    height: 3em;
+    margin-bottom: 3em;
+    margin-right: 20px;
+}
+div.right2{
+    
+}
+div.name, div.mail,div.message{
+    display:grid;
+}
+label {
+    font-family: 'Fredoka', sans-serif;
+    font-size: 30px;
+    text-align: left;
+    margin:10px;
+}
+input{
+    width:30em;
+    height:2.5em;
+    border-radius: 5px;
+    margin:10px;
+    border-color: rgb(136, 9, 255);
+    font-family: 'Fredoka', sans-serif;
+    font-size: 20px;
+}
+input:focus{
+    border-color:rgb(60, 60, 236)
+}
+#message{
+    width:30em;
+    height:8em;
+    border-radius: 5px;
+    margin:10px;
+    border-color: rgb(136, 9, 255);
+    font-family: 'Fredoka', sans-serif;
+    font-size: 20px;
+}
+#send{
+    background-color: rgb(255, 255, 255);
+    border:3px solid rgb(136, 9, 255);;
+    font-family: 'Fredoka', sans-serif;
+    color: black;
+     margin-left:22em;
+     margin-top: 2em;
+     margin-bottom: 2em;
+     border-radius: 0%;
+     width:8em;
+     height:3em;
+}
+div.cw{
+    width :100%;
+}
+#copy{
+    font-family: 'Fredoka', sans-serif;
+    font-size: 20px;
+text-align: center;
+}
+@media(max-width:800px){
+    div.social{
+        width: 100%;
+    }
+    div.right2{
+        width: 100%;
+    }
+    h2#get{
+        width: 100%;
+        font-size:30px ;
+        text-align:center;
+       
+    }
+    input{
+        height:2.5em;
+        width:20em;
+    }
+    #message{
+        width:20em;
+        height:5em;
+    }
+    #send{
+        margin-left: 10em;
+    }
+}

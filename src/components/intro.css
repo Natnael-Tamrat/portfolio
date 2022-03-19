@@ -1,0 +1,144 @@
+h1
+{font-family: 'Fredoka', sans-serif;
+color: white;
+font-size: calc(12px + 2vw);
+}
+a:hover{
+    cursor: pointer;
+}
+div.second{
+    display: flex;
+    margin-top: -175px;
+}
+div.intro{
+    width:100%;
+    height: 24rem;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(18, 18, 48);
+}
+div.left{
+
+    width:50%;
+}
+div.right{
+    margin-top: 30px;
+    width:50%;
+}
+div.nav{
+    width: 100%;
+    /* display: flex;
+    justify-content: end; */
+    
+   }
+.navbar {
+    display:flex;
+    justify-content:end;
+    align-items: center;
+    color:orange;
+}
+.links {
+    display: flex;
+    justify-content: end;
+}
+.links ul{
+margin:0;
+padding: 0;
+display: flex;
+}
+.links li{
+    list-style: none;
+}
+.links li a{
+    text-decoration: none;
+    color:orange;
+    padding: 1rem;
+    display: block;
+    font-family: 'Fredoka', sans-serif;
+color:orange;
+font-size: calc(10px + 0.75vw);
+}
+
+.links li:hover{
+    background-color: rgb(61, 61, 116);
+}
+.toggle-button {
+    position: absolute;
+    top:.75rem;
+    left:1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    height :40px;
+    background-color: transparent;
+}
+nav{
+    display: flex;
+    width:100%;
+}
+.bar {
+    height:10px;
+    width: 50px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin :2px;
+}
+img.img1{
+    width:13em;
+   
+    border-top-left-radius: 50% 50%; border-top-right-radius: 50% 50%; border-bottom-right-radius: 50% 50%; border-bottom-left-radius: 50% 50%; 
+} 
+img.img1:hover{
+    transform: scale(1.1);
+    transition: 1s ease-out;
+}
+span.name{
+    color: rgba(219, 158, 44, 0.979);
+}
+.typical {
+    font-family: 'Fredoka', sans-serif;
+    color: white; 
+    font-size: calc(12px + 2vw);
+}
+@media(max-width:500px){
+    .toggle-button {
+        display: flex;
+        width: 100%;
+    }
+    .links {
+         display: none;
+       /* width: 100%;    
+       display: block;
+       justify-content: center; */
+    }
+   .navbar {
+       flex-direction: column;
+       align-items: flex-start;
+    height: 60px;
+   }
+   .links ul {
+       width: 100%;
+       flex-direction: column;
+       
+    }
+   .links li {
+       text-align: center;
+   }
+   .links li a {
+       text-align: center;
+   }
+   div.left{
+       margin-top:40px;
+       
+   }
+   div.right {
+       margin-top: 40px;
+   }
+   .links.active {
+    width: 100%;    
+    display: block;
+    justify-content: center;
+   }
+}

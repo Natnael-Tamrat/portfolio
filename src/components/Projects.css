@@ -1,0 +1,118 @@
+div.projects{
+    margin-top: 30px;
+    background-color: rgba(22, 21, 21, 0.884);
+    height: 75em;
+    padding: 20px;
+    box-shadow: 0 5px 5px 0 rgb(233 240 243 / 50%), 0 0 0 1px #e6ecf8;
+}
+h2.text{
+  vertical-align: middle;
+    font-family: 'Fredoka', sans-serif;
+    color:orange;
+    font-size: 5vw;
+}
+img.injera{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center center;
+    border-radius: 20px;
+    background-size: cover;
+}
+div.prj{
+    display: flex;
+    flex-wrap: wrap;
+    position:absolute;
+}
+img.portfolio{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    background-size: cover;
+}
+div.task1{
+    background-color: rgb(245, 241, 241);
+    background-repeat: no-repeat;
+    background-size:cover;
+    
+    margin-left: 50px;
+    width:20em;
+    height:25em;
+   margin-bottom: 50px;
+    border-radius: 20px;
+    box-shadow: 0 5px 5px 0 rgba(15, 19, 20, 0.5), 0 0 0 1px #e6ecf8;
+    
+}
+div.part1{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 100px;
+}
+div.task1:hover {
+  
+
+}
+img#git{
+  
+    width:2em;
+    height:2em;
+    margin-right: 3em;
+    margin-left: 2em;
+}
+div.description{
+    display:flex;
+    flex-wrap: wrap;
+     margin-top: 5em;
+    margin-left:-5em;
+    width:20em;
+     height :16em;
+    background-color:white;
+    border-radius: 20px;
+    box-shadow: 0 5px 5px 0 rgba(15, 19, 20, 0.5), 0 0 0 1px #e6ecf8;  
+    
+
+}
+h2.txt{
+    text-align: center;
+    font-family: 'Fredoka', sans-serif;
+    color:rgb(48, 11, 11);
+   font-size:2rem;
+   margin-bottom: 0%;
+}
+h2.txt2{
+    margin-left: 30px;
+    font-family: 'Fredoka', sans-serif;
+    color:rgb(48, 11, 11);
+   font-size:2rem;
+   margin-bottom: 0%;
+}
+h3#desc{
+    font-size: 1rem;
+   
+    margin-left: 5px;
+    margin-right: 5px;
+    font-family: 'Fredoka', sans-serif;
+    color:rgb(48, 11, 11);
+      
+}
+button#browse{
+    background-color: rgb(79, 13, 141);
+  
+    color: white;
+    width: 8em;
+    height: 2em;
+    font-size: 1.2em;
+    border-radius: 3em;
+}
+@media(max-width:800px){
+div.description{
+    margin-left:50px;
+    margin-top: -200px;
+    width:20em;
+     height :16em;
+    background-color:white;
+    border-radius: 20px;
+    box-shadow: 0 5px 5px 0 rgba(15, 19, 20, 0.5), 0 0 0 1px #e6ecf8;  
+}
+
+}
