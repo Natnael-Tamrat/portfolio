@@ -23,15 +23,15 @@ export default function Contacts() {
     <div id="Contacts" className='contacts'>
        <div className='social'>
            <h2 id='get'>GET IN TOUCH</h2>
-          <div className='phone'>
+          <div id='phone'>
           <img className='imag' src={phone}></img>
           <h2 className='txt'>+48 579 248 004</h2>
           </div>
-          <div className='email'>
+          <div id='email'>
           <img className='imag' src={email}></img>
           <h2 className='txt'>ntamrat16@gmail.com</h2>
           </div>
-          <div className='address'>
+          <div id='address'>
           <img className='imag' src={maps}></img>
           <h2 className='txt'>Warsaw,   Poland</h2>
           </div>

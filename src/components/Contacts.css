@@ -22,9 +22,9 @@ div.social{
     width: 50%;
     display: block;
 }
-div.phone,div.email,div.address{
+div#phone,div#email,div#address{
     display: flex;
-    width:20em;
+    width:100%;
     margin-left: 50px;
     margin-bottom:20px;
     padding: 10px;
@@ -106,13 +106,25 @@ text-align: center;
     }
     input{
         height:2.5em;
-        width:20em;
+        width:17em;
     }
     #message{
-        width:20em;
+        width:17em;
         height:5em;
     }
     #send{
         margin-left: 10em;
+    }
+    div#phone,div#email,div#address{
+
+        width:400px;
+        padding: 0%;
+        margin-left: 2em;
+    }
+    h2.txt{
+        font-size: 1.5em;
+    }
+    h2#copy{
+        font-size: 1em;
     }
 }

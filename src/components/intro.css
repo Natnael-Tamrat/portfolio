@@ -1,3 +1,6 @@
+div.navigation{
+    width:100%;
+}
 h1
 {font-family: 'Fredoka', sans-serif;
 color: white;
@@ -8,7 +11,7 @@ a:hover{
 }
 div.second{
     display: flex;
-    margin-top: -175px;
+    margin-top: -170px;
 }
 div.intro{
     width:100%;
@@ -102,7 +105,11 @@ span.name{
     color: white; 
     font-size: calc(12px + 2vw);
 }
-@media(max-width:500px){
+@media(max-width:800px){
+    div.navigation{
+        width: 100%;
+      
+    }
     .toggle-button {
         display: flex;
         width: 100%;
@@ -140,5 +147,11 @@ span.name{
     width: 100%;    
     display: block;
     justify-content: center;
+  
    }
+    li{
+   background-color:rgb(61, 61, 116) ; 
+  
+}
+
 }
